@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="lazwebserver"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="WebLaz"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="lazwebserver.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPController"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uControl"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\usmartdebuglog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSmartDebugLog"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucustomexception.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCustomException"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucustomgetmodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCustomGetModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ulogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLogin"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucookiemanagement.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCookieManagement"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\uconsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uConsts"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ujwtabstract.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uJWTAbstract"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\jwt_unit\crypto_base64.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ugenericdatefunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uGenericDateFunctions"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="..\bin\$(TargetCPU)-$(TargetOS)"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\src;..\src\jwt_unit"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-dOpenSslKo
+-dSmartDebugLogWriteActive"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

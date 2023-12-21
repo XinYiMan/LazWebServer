@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="lazwebserver.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="160"/>
+        <CursorPos X="53" Y="195"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPController"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uControl"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="187"/>
+        <CursorPos X="11" Y="68"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\usmartdebuglog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSmartDebugLog"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="14" Y="78"/>
+        <UsageCount Value="29"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucustomexception.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCustomException"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="17"/>
+        <UsageCount Value="29"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucustomgetmodule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCustomGetModule"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="17"/>
+        <UsageCount Value="29"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ulogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLogin"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="17"/>
+        <CursorPos X="33" Y="22"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ucookiemanagement.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uCookieManagement"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\uconsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uConsts"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="195" Y="13"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ujwtabstract.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uJWTAbstract"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="100"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\jwt_unit\crypto_base64.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\src\ugenericdatefunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uGenericDateFunctions"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="59" Y="61"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\packages\fcl-web\src\base\httpdefs.pp"/>
+        <UnitName Value="HTTPDefs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="352"/>
+        <CursorPos X="3" Y="409"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\packages\fcl-web\src\base\fphttp.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos X="12" Y="16"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\rtl\objpas\objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="124"/>
+        <CursorPos X="23" Y="148"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\lazarus\lcl\interfaces\gtk2\gtk2cellrenderer.pas"/>
+        <UnitName Value="Gtk2CellRenderer"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="114"/>
+        <CursorPos X="3" Y="30"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\..\Downloads\routing-session\routingsessiondemo.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="129"/>
+        <CursorPos X="40" Y="162"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\packages\fcl-web\src\base\fpweb.pp"/>
+        <UnitName Value="fpWeb"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="135"/>
+        <CursorPos X="14" Y="162"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\packages\fcl-web\src\base\custweb.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\progetti_lazarus\korg_microservices\src\ujsondataset.pas"/>
+        <UnitName Value="uJsonDataSet"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="62"/>
+        <CursorPos X="91" Y="166"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\20231006\fpcsrc\rtl\objpas\sysutils\finah.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\progetti_lazarus\korg_microservices\src\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="157"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="20" Column="25" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="115" Column="35" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="133" Column="105" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="135" Column="31" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="124" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="22" Column="25" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="200" Column="35" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="141" Column="59" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="198" Column="79" TopLine="150"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="34" Column="38" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="31" Column="47"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="8" Column="46"/>
+      </Position>
+      <Position>
+        <Filename Value="lazwebserver.lpr"/>
+        <Caret Line="33" Column="35" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="22" Column="25"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="33" Column="61"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="142" Column="24" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ulogin.pas"/>
+        <Caret Line="24" Column="50"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="150" Column="82" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="68" Column="129" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="71" Column="22" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="123" Column="115" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="154" Column="113" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="60" Column="52" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="lazwebserver.lpr"/>
+        <Caret Line="43" Column="21" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="60" Column="133" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="22" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="24" Column="23" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ucontrol.pas"/>
+        <Caret Line="71" Column="36" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="lazwebserver.lpr"/>
+        <Caret Line="185" Column="83" TopLine="151"/>
+      </Position>
+      <Position>
+        <Filename Value="..\src\ulogin.pas"/>
+        <Caret Line="22" Column="33" TopLine="17"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

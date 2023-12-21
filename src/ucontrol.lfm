@@ -1,0 +1,22 @@
+object FPController: TFPController
+  OldCreateOrder = False
+  Actions = <  
+    item
+      Name = 'index'
+      Default = True
+      OnRequest = indexRequest
+      Template.AllowTagParams = False
+    end>
+  CreateSession = False
+  CORS.Enabled = False
+  CORS.Options = [coAllowCredentials, coEmptyDomainToOrigin]
+  CORS.AllowedMethods = 'GET, PUT, POST, OPTIONS, HEAD'
+  CORS.AllowedOrigins = '*'
+  CORS.AllowedHeaders = 'x-requested-with, content-type, authorization'
+  CORS.MaxAge = 0
+  Height = 188
+  HorizontalOffset = 1682
+  VerticalOffset = 193
+  Width = 188
+  PPI = 120
+end
